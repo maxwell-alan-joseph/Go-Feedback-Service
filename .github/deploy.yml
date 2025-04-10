@@ -1,0 +1,13 @@
+name: CI/CD Pipeline 
+
+on: 
+  push:
+    branches: [main]
+
+jobs:
+  deploy: 
+    runs-on: ubuntu-latest
+
+    steps: 
+    - name: Checkoutyu code
+      uses: actions/checkout@v3
