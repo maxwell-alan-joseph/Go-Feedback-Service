@@ -1,0 +1,18 @@
+name: Test Self-Hosted Runner 
+
+on: 
+    push: 
+        branches: [ main ]
+    workflow_dispatch: 
+
+jobs: 
+    test-runner:
+        runs-on: self-hosted  # Self-hosted runner on your local machine with Minikube installed
+
+        steps: 
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Run tests
+              run: echo "Running tests... From ITACHI's - Lap"
+              
