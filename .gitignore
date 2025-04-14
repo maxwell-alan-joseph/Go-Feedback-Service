@@ -1,0 +1,62 @@
+# GO
+bin/
+*.exe
+*.test
+*.out
+
+# Dependency directories ( using Go modules )
+vendor/
+
+# Logs
+*.log 
+
+# Temporary files 
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+*.vscode/
+
+# OS Generated Files
+Thumbs.db
+ehtumbs.db
+Desktop.ini
+
+# Docker
+*.tar
+*.pid
+
+# kuberenetes
+*.kube/
+.kubeconfig
+*.yaml~
+
+# GitHub Actions Runner
+actions-runner/
+runner/
+_work/
+_tool/
+_temp/
+.diag/
+externals/
+*.token
+
+# GitHub specific
+.env
+.env.*
+node_modules/
+coverage/
+dist/
+build/
+
+# Go coverage
+coverage.out
+
+# Ignore everything under .github runner work dirs if pulled
+.github/_*
+
+# IDEs
+.idea/
+*.iml
+*.code-workspace

@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: go-feedback-service
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
-    app: go-feedback
+    app: go-feedback-service 
   ports:
     - protocol: TCP
       port: 8080
