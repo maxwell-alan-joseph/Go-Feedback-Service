@@ -19,15 +19,15 @@ A containerized feedback collection API built with Go, deployed with Kubernetes,
 ## 📁 Project Structure - 
 ```
 .
-├── k8s/ # Kubernetes deployment files
-│ ├── deployment.yaml # App deployment configuration
-│ └── service.yaml # Service exposure configuration
-├── .github/workflows/ # CI/CD automation
-│ └── deploy.yaml # GitHub Actions workflow
-├── main.go # Primary application code
-├── Dockerfile # Container build instructions
-├── go.mod # Go module dependencies
-└── README.md # You are here :)
+├── k8s/                   - Kubernetes deployment files
+│ ├── deployment.yaml      - App deployment configuration
+│ └── service.yaml         - Service exposure configuration
+├── .github/workflows/     - CI/CD automation
+│ └── deploy.yaml          - GitHub Actions workflow
+├── main.go                - Primary application code
+├── Dockerfile             - Container build instructions
+├── go.mod                 - Go module dependencies
+└── README.md              - You are here :)
 
 ```
 
